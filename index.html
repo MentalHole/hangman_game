@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handman Game</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра "Виселица"</h1>
+        <canvas id="hangmanCanvas" width="200" height="200"></canvas>
+        <p id="wordDisplay">_ _ _ _ _</p>
+        <input type="text" id="letterInput" maxlength="1" placeholder="Введите букву">
+        <button id="submitLetter">Проверить</button>
+        <p id="message"></p>
+    </div>
+    
+    <script src="scripts/main.js"></script>
+</body>
+</html>
